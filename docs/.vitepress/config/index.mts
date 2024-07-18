@@ -9,5 +9,6 @@ export default defineConfig({
   locales: {
     root: { label: 'English', lang: 'en-US', link: '/', ...enConfig },
     fr: { label: 'Français',  lang: 'fr-FR', link: '/fr/', ...frConfig },
+    pt: { label: 'Português', lang: 'pt-PT', link: '/pt/', ...ptConfig },
   }
 })
